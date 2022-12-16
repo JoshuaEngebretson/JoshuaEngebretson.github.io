@@ -7,6 +7,7 @@
 
 body {
   background-color: #f3f3f3;
+  margin: 5% 3.5%;
 }
 
 header {
@@ -52,4 +53,8 @@ p {
 
 i {
   font-weight:normal;
+}
+
+.right-side {
+  padding-top:50px;
 }
