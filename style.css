@@ -1,1 +1,55 @@
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  color: ;
+  font-size: 20px;
+  font-family: Merriweather, Montserrat, Times New Roman, Arial;
+}
+
+p {
+  font-family: Open Sans, Times New Roman, Arial;
+}
+
+.section {
+  color: #2079c7;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Merriweather, Montserrat, Arial;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width:65%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right {
+  width:30%
+}
+
+.contact-info {
+  margin:0;
+}
+
+.dates {
+  color: #666666;
+  margin-top:-10px;
+  margin-bottom:-10px;
+}
+
+i {
+  font-weight:normal;
+}
