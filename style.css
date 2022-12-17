@@ -5,9 +5,18 @@
   }
 }
 
+html {
+ 
+}
+
 body {
+  background-color:#124069;
+  margin:2%;
+}
+
+.text {
   background-color: #f3f3f3;
-  margin: 5% 3.5%;
+  padding-left:5px;
 }
 
 header {
@@ -37,20 +46,15 @@ p {
 
 .left {
   width:65%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-right: 3.45%;
 }
 
 .right {
   width:30%
 }
 
-.contact-info {
-  margin:0;
-}
-
 .dates {
-  color: #666666;
+  color: #737373;
   margin-top:-10px;
   margin-bottom:-10px;
 }
@@ -62,4 +66,10 @@ i {
 img {
   height:auto;
   max-width:100%;
+  margin-left:-5px;
+  border: solid #f3f3f3;
+}
+
+li {
+  font-size:.95em;
 }
