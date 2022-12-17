@@ -16,6 +16,10 @@ header {
   font-family: Merriweather, Montserrat, Times New Roman, Arial;
 }
 
+.blurb {
+  max-width:60%;
+}
+
 p {
   font-family: Open Sans, Times New Roman, Arial;
 }
@@ -33,8 +37,8 @@ p {
 
 .left {
   width:65%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .right {
@@ -55,6 +59,12 @@ i {
   font-weight:normal;
 }
 
-.right-side {
-  padding-top:50px;
+img {
+  height:auto;
+  max-width:100%;
+}
+
+label {
+  margin-top:25%;
+  padding:10px;
 }
