@@ -5,10 +5,6 @@
   }
 }
 
-html {
- 
-}
-
 body {
   margin:2%;
   animation-name: bodycolor;
@@ -33,25 +29,19 @@ body {
   padding-left:7px;
 }
 
-header {
-  color: ;
-  font-size: 20px;
-  font-family: Merriweather, Montserrat, Times New Roman, Arial;
+.header {
+  font-family: Times New Roman, Georgia, Palatino;
 }
 
 .blurb {
   max-width:60%;
 }
 
-p {
-  font-family: Open Sans, Times New Roman, Arial;
-}
-
 .section {
   color: #2079c7;
   font-weight: bold;
   font-size: 16px;
-  font-family: Merriweather, Montserrat, Arial;
+  font-family: Arial, Arial Black, Helvetica;
 }
 
 .column {
